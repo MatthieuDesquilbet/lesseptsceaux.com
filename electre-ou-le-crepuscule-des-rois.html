@@ -28,7 +28,7 @@
     <meta
       property="og:image"
       itemprop="image"
-      content="http://lesseptsceaux.com/img/facebook_hd.png"
+      content="http://lesseptsceaux.com/img/electre/affiche_2.jpg"
     />
     <meta
       property="og:url"
@@ -48,21 +48,40 @@
     />
     <!-- Meta Pixel Code -->
     <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '577936370792392');
-      fbq('track', 'PageView');
-      </script>
-      <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=577936370792392&ev=PageView&noscript=1"
-      /></noscript>
-      <!-- End Meta Pixel Code -->
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "577936370792392");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=577936370792392&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
 
     <title>Electre ou le crépuscule des rois</title>
     <link
@@ -167,18 +186,24 @@
               <td class="has-text-left">Clytemnestre</td>
             </tr>
             <tr>
-              <td class="has-text-right">Baptiste Znamenak</td>
+              <td class="has-text-right">Tom Van Maerrem</td>
               <td class="has-text-left">Oreste</td>
             </tr>
           </tbody>
         </table>
 
-        <h5 class="has-text-light mt-4">Assistant Mise En Scene Et Lumieres</h5>
-        <p>Tom Van Maerrem</p>
-
         <h3 class="has-text-light">Programmation</h3>
         <p>
-          Au <b>théâtre de l'Essaïon</b> du 23/06/2022 au 01/10/2022
+          Au <b>théâtre de l'Essaïon</b> du 12/04/2023 au 18/05/2023
+          <br />
+          <a
+            class="button is-black is-inverted is-outlined m-4 is-large"
+            href="https://www.essaion-theatre.com/spectacle/968_electre-ou-le-crepuscule-des-rois.html"
+            target="_blank"
+            ><span class="icon">
+              <i class="mdi mdi-ticket-confirmation"></i> </span
+            ><span>RÉSERVER</span></a
+          >
         </p>
 
         <h3 class="has-text-light">Presse</h3>
@@ -252,16 +277,16 @@
         <div class="columns">
           <figure class="column is-4">
             <img
-              src="img/fb_adieux_a_la_reine.png"
+              src="img/electre/fb_adieux_a_la_reine.png"
               alt="Les Adieux à la Reine ?"
             />
           </figure>
           <figure class="column is-4">
-            <img src="img/facebook_hd.png" alt="Affiche carrée" />
+            <img src="img/electre/facebook_hd.png" alt="Affiche carrée" />
           </figure>
           <figure class="column is-4">
             <img
-              src="img/instagram_citation.jpg"
+              src="img/electre/instagram_citation.jpg"
               alt="Citation d'Oreste à Clytemnestre"
             />
           </figure>
@@ -269,13 +294,13 @@
         <div class="columns">
           <figure class="column is-4 is-offset-2">
             <img
-              src="img/instagram_theatre&co.jpg"
+              src="img/electre/instagram_theatre&co.jpg"
               alt="Article Marek Ocenas"
             />
           </figure>
           <figure class="column is-4">
             <img
-              src="img/instagram_theatreonline.jpg"
+              src="img/electre/instagram_theatreonline.jpg"
               alt="Coup de coeur théâtreonline"
             />
           </figure>
@@ -290,6 +315,10 @@
           class="column p-0 has-text-light"
           href="/electre-ou-le-crepuscule-des-rois"
           >Électre</a
+        >
+        <span class="pl-4 pr-4">|</span>
+        <a class="column p-0 has-text-light" href="/la-serenade"
+          >La&nbsp;Sérénade</a
         >
         <span class="pl-4 pr-4">|</span>
         <a class="column p-0 has-text-light" href="/contact">Contact</a>
